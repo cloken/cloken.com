@@ -1,0 +1,24 @@
+{
+  "name": "@cloken/site",
+  "private": true,
+  "version": "0.0.0",
+  "description": "The main webapp for Cloken.",
+  "scripts": {
+    "build": "grunt build",
+    "dev": "grunt dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "~2.0.1",
+    "grunt": "~1.0.3",
+    "grunt-browser-sync": "~2.2.0",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-sass": "~3.0.2",
+    "load-grunt-config": "~0.19.2",
+    "node-sass": "~4.9.4",
+    "time-grunt": "~1.4.0"
+  }
+}

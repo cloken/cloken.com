@@ -1,0 +1,13 @@
+build:
+  - clean:build
+  - copy:build
+  - sass:build
+
+dev:
+  - clean:dev
+  - sass:dev
+  - browserSync:dev
+  - watch
+
+default:
+  - dev
