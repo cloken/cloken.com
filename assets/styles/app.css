@@ -1,0 +1,63 @@
+/**
+ * Application
+ */
+:root {
+  color: #002147;
+  font-size: 16px;
+  line-height: 1.5; }
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lato';
+  text-rendering: optimizeLegibility; }
+
+body {
+  margin: 0; }
+
+figure {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem; }
+
+main {
+  align-items: stretch;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100vw; }
+  @media only screen and (max-width: 60rem) {
+    main {
+      flex-direction: column; } }
+
+article {
+  align-items: center;
+  background-color: #38322D;
+  color: #fff;
+  display: flex;
+  flex: 1;
+  font-size: 1.25rem;
+  justify-content: center;
+  padding: 2rem; }
+  article a {
+    color: #fff; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -.05em; }
+
+p {
+  margin-top: 0; }
+
+a {
+  color: #cc3333; }
+
+img {
+  display: inline-flex; }

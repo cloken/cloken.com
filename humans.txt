@@ -2,4 +2,4 @@
 
 Name: Bruno Wego
 Site: https://github.com/brunowego
-Location: Brasília
+Location: Brasília, Brazil
